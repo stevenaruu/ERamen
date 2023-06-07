@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ERamen</title>
+    <link rel="stylesheet" href="../assets/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <link rel="icon" href="../assets/image/ERamen-logo.png">
+</head>
+<body>
+
+    <section id="contact-us">
+        <div class="left">
+            <div class="contact-us-text-wrapper">
+                <a href="../index.html">Back to homepage</a>
+                <p class="contact-us-text">Contact Us</p>
+                <p>Any question or remarks? Just write us a message!</p>
+            </div>
+            <!-- made hr div, beacuse my hr not function -->
+            <div class="hr"></div>
+            <div class="formWrapper" 
+            .+3>
+                <form action="../index.html" onsubmit="return validate()">
+                    <label for="name">Full Name: </label>
+                    <input type="text" id="name" placeholder="Insert full name...">
+                    <div class="error"></div>
+
+                    <label for="email">Email: </label>
+                    <input type="text" id="email" placeholder="Insert email...">
+                    <div class="error"></div>
+
+                    <label for="number">Phone Number: </label>
+                    <input type="text" id="number" placeholder="Insert phone number...">
+                    <div class="error"></div>
+
+                    <label for="preferences">Preferences: </label>
+                    <select name="preferences" id="preferences">
+                        <option value="ramen" id="select">Select Ramen</option>
+                        <option value="ramen" id="ramen">Ramen</option>
+                        <option value="ramen" id="dry-ramen">Dry Ramen</option>
+                    </select>
+                    <div class="error"></div>
+
+                    <input type="checkbox" id="receive" name="receive">
+                    <label for="receive">To receive our newsletter, you must agree to opt-in and provide your email address. We value your privacy and never share your information with third parties</label>
+                    <div class="error"></div>
+                    
+                    <div class="btn-wrapper">
+                        <button>Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="right">
+            <div class="logo-container">
+                <div class="logo-background"></div>
+                <img src="../assets/image/ERamen-logo.png" alt="" class="ERamen-logo">
+                <a href="../index.html" class="back">Back to homepage</a>
+            </div>
+        </div>
+    </section>
+    <script src="../assets/js/form-validation-logic.js"></script>
+</body>
+</html>

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ERamen</title>
+    <link rel="stylesheet" href="../assets/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <link rel="icon" href="../assets/image/ERamen-logo.png">
+</head>
+
+<body>
+    <nav>
+        <img src="../assets/image/ERamen-logo.png" alt="ERamen Logo" class="logo">
+        <ul>
+            <li>
+                <a href="../index.html">Home</a>
+            </li>
+            <li>
+                <a href="products.html">Menu's</a>
+            </li>
+            <li>
+                <a href="promotion.html">For You</a>
+            </li>
+            <li>
+                <a href="about-us.html">About Us</a>
+            </li>
+            <li id="contact-us-btn">
+                <a href="contact-us.html" class="contact-us-btn">Contact Us</a>
+            </li>
+        </ul>
+        <!-- hamburger button for mobile device -->
+        <span id="hamburger">&#9776</span>
+    </nav>
+
+    <!-- hamburger button list for mobile device -->
+    <div class="hamburgerList">
+        <ul>
+            <li>
+                <a href="../index.html">Home</a>
+            </li>
+            <li>
+                <a href="products.html">Menu's</a>
+            </li>
+            <li>
+                <a href="promotion.html">For You</a>
+            </li>
+            <li>
+                <a href="about-us.html">About Us</a>
+            </li>
+            <li>
+                <a href="contact-us.html">Contact Us</a>
+            </li>
+        </ul>
+    </div>
+
+    <section id="promotion">
+        <div class="promotion-container">
+            <div class="promotion-card-container">
+                <div class="promotion-card" onclick="goToMenu()">
+                    <div class="promotion-card-header">
+                        <img src="../assets/image/2.png" alt="">
+                        <p>Miso Ramen</p>
+                    </div>
+                    <div class="promotion-card-body">
+                        <p>Rp. 37.499</p>
+                        <div class="discount">
+                            <span>25%</span>
+                            <span>Rp. 50.000</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="promotion-card" onclick="goToMenu()">
+                    <div class="promotion-card-header">
+                        <img src="../assets/image/4.png" alt="">
+                        <p>Spicy Ramen</p>
+                    </div>
+                    <div class="promotion-card-body">
+                        <p>Rp. 33.749</p>
+                        <div class="discount">
+                            <span>25%</span>
+                            <span>Rp. 45.000</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="promotion-card" onclick="goToMenu()">
+                    <div class="promotion-card-header">
+                        <img src="../assets/image/3.png" alt="">
+                        <p>Tonkotsu Ramen</p>
+                    </div>
+                    <div class="promotion-card-body">
+                        <p>Rp. 37.499</p>
+                        <div class="discount">
+                            <span>25%</span>
+                            <span>Rp. 50.000</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="promotion-card" onclick="goToMenu()">
+                    <div class="promotion-card-header">
+                        <img src="../assets/image/1.png" alt="">
+                        <p>Shoyu Ramen</p>
+                    </div>
+                    <div class="promotion-card-body">
+                        <p>Rp. 33.749</p>
+                        <div class="discount">
+                            <span>25%</span>
+                            <span>Rp. 45.000</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="discount-banner-wrapper">
+                <div class="discount-tag">
+                    <span>ALWAYS</span>
+                    <span>ON</span>
+                </div>
+                <img src="../assets/image/discount-tag.png" alt="">
+                <div class="shopee">
+                    <div class="shopee-food">
+                        <p>Purchase through</p>
+                        <img src="../assets/image/shopee-food-logo.png" alt="">
+                    </div>
+                    <div class="horizontal-line"></div>
+                    <div class="shopee-pay">
+                        <p>Payment through</p>
+                        <img src="../assets/image/shopee-pay-logo.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="../assets/js/hamburger-logic.js"></script>
+</body>
+
+</html>
